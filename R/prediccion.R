@@ -1,0 +1,18 @@
+#' @title Recibe un registro en JSON y devuleve una predicción del mismo en json
+#'
+#' @description Recibe un registro en JSON y devuleve una predicción del mismo en json
+#'
+#' @param registro
+#'
+#' @return json
+#'
+#' @examples  prediccion("{\"id\":[0,1],\"confianza\":0.75}")
+#'
+#' @import jsonlite
+#'
+#' @export
+
+prediccion <- function(registro){
+  json <- paste('{"rango":[',0,',',1,'],"probabilidad":',0.75,'}',sep = "")
+  return(json)
+}
