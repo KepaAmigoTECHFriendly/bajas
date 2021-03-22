@@ -14,5 +14,6 @@
 
 prediccion <- function(registro){
   json <- paste('{"rango":[',0,',',1,'],"probabilidad":',0.75,'}',sep = "")
+  json <- toJSON(json)
   return(json)
 }
