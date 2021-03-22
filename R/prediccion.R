@@ -13,6 +13,7 @@
 #' @export
 
 prediccion <- function(registro){
-  json <- paste('{"rango":[',0,',',1,'],"probabilidad":',0.75,'}',sep = "")
+
+  json <- paste('{"rango":[',0,',',1,'),"probabilidad":',round(runif(1),2),'}',sep = "")
   return(json)
 }
