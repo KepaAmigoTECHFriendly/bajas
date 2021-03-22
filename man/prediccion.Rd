@@ -16,6 +16,6 @@ json
 Recibe un registro en JSON y devuleve una predicción del mismo en json
 }
 \examples{
- prediccion("{\"id\":[0,1],\"confianza\":0.75}")
+ prediccion(5)
 
 }

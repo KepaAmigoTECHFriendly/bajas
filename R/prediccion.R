@@ -6,7 +6,7 @@
 #'
 #' @return json
 #'
-#' @examples  prediccion("{\"id\":[0,1],\"confianza\":0.75}")
+#' @examples  prediccion(5)
 #'
 #' @import jsonlite
 #'
