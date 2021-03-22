@@ -13,6 +13,6 @@
 #' @export
 
 prediccion <- function(ContadorBajasCCC, anyconti, numconti, ContadordiasBajasDNI, sexo, cnae, fecha.baja, fecha.alta, icd9, recaida, num.trabajadores.emp, codigo.postal, fecha.alta.empresa, contrato, grupo.cotizacion, pluriempleo, diasemana, esprincipal, fecha.nacimiento){
-  json <- paste('{"rango":[',0,',',1,'],"probabilidad":',0.75,'}',sep = "")
+  json <- paste('{"rango":[',0,',',1,'),"probabilidad":',round(runif(1),2),'}',sep = "")
   return(json)
 }
